@@ -11,9 +11,11 @@ to an existing Yii application.
 
 ##Requirements
 
-Yii 1.1.8 or above.
-The application to which Mercanet is added needs to have a user table.
+Yii 1.1 or +
 
+An account from Mercanet Payment System.
+
+* merchant_id
 
 ##Usage
 
