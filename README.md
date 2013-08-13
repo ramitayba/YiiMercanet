@@ -62,7 +62,7 @@ $this->widget('application.widgets.RequestBlock', array(
 ~~~
 [php]
 
-...
+//...
 
 $configFile = Yii::getPathOfAlias('webroot.payment') . DIRECTORY_SEPARATOR . 'data';
     if (file_exists($configFile)) {
@@ -157,14 +157,14 @@ $configFile = Yii::getPathOfAlias('webroot.payment') . DIRECTORY_SEPARATOR . 'da
         $returnedData['data'] = $tableau[32];
     }
 	
-...
+//...
 	
 if ($returnedData['code'] == 0) {
     $order->status = 'Completed';
-    ...
+    //...
 } else {
     $order->status = 'Failed';
-    ...
+    //...
 }
 ~~~
 
