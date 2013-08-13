@@ -1,0 +1,7 @@
+Version API		: 6.00
+Type API		: Plugin Php, Perl
+OS			: Windows 2003
+microprocesseur 	: Intel
+Serveur			: Apache
+Module Php		: Php 4.06
+Module Perl		: Perl 5.6
